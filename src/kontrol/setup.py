@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'kumanda = kontrol.kumanda:main',
-            'alici = kontrol.alici:main'
+            'alici = kontrol.alici:main',
+            'takeoff = kontrol.takeoff:takeoff'
         ],
     },
 )

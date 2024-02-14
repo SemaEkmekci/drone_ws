@@ -10,8 +10,7 @@ class MinimalPublisher(Node):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(String, 'ekmekci', 10)
         
-        
-        
+    
 
     def send_message_once(self):
         msg = String()
@@ -28,6 +27,12 @@ class MinimalPublisher(Node):
     def send_drone_status_message(self):
         msg = String()
         msg.data = 'Drone Bilgisi'
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publishing: "%s"' % msg.data)
+    
+    def send_drone_havalan_message(self):
+        msg = String()
+        msg.data = 'Havalan'
         self.publisher_.publish(msg)
         self.get_logger().info('Publishing: "%s"' % msg.data)   
 

@@ -7,6 +7,7 @@ from geometry_msgs.msg import Twist
 from std_msgs.msg import String
 
 
+
 class MinimalSubscriber(Node):
 
     def __init__(self):
@@ -31,6 +32,8 @@ class MinimalSubscriber(Node):
         elif msg.data == "Drone Bilgisi":
             print("Drone Bilgisi")
             self.drone_status()
+        elif msg.data == "Havalan":
+            self.takeoff()
         else:
             print("Mesaj YOK")
 
@@ -57,6 +60,12 @@ class MinimalSubscriber(Node):
         print(drone.location.global_relative_frame)
         print(drone.location.global_relative_frame.alt)
 
+    
+    def takeoff(self):
+        print("TAKEOFF ÇALIŞTI!!!!")
+
+
+
     def stop_gazebo(self):
         # Eğer mevcut bir Twist mesajı varsa, onu durdur
         if self.current_twist_msg:
@@ -64,6 +73,7 @@ class MinimalSubscriber(Node):
             self.current_twist_msg.angular.z = 0.0  # Açısal hızı durdur
             self.publisher_.publish(self.current_twist_msg)
             self.get_logger().info('Twist mesajı durduruldu.')
+
 
 def main(args=None):
     rclpy.init(args=args)
