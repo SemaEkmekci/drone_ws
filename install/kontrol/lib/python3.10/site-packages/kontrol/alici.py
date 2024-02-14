@@ -1,4 +1,5 @@
 import rclpy
+import os
 from rclpy.node import Node
 import subprocess
 import time
@@ -18,31 +19,42 @@ class MinimalSubscriber(Node):
         self.publisher_ = self.create_publisher(Twist, '/demo/cmd_demo', 10)
         self.gazebo_process = None
         self.current_twist_msg = None
+        self.start_gazebo()
 
     def listener_callback(self, msg):
         if msg.data == "İleri Git":
             print("İleri Git Mesajı Alındı")
-            self.start_gazebo_and_move_forward()
+            self.move_forward()
         elif msg.data == "Dur":
             print("Dur")
             self.stop_gazebo()
 
-    def start_gazebo_and_move_forward(self):
-        # Gazebo'yu başlat
-        #self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "/opt/ros/iron/share/gazebo_plugins/worlds/gazebo_ros_diff_drive_demo.world"])
-        self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "--master-uri", "http://127.0.0.1:11346", "/opt/ros/iron/share/gazebo_plugins/worlds/gazebo_ros_diff_drive_demo.world"])
+    
 
-        # Gazebo'nun başlaması için bekleyin
-        time.sleep(5)
+    def move_forward(self):
 
-        # Twist mesajı oluştur
+    # Twist mesajı oluştur
         self.current_twist_msg = Twist()
         self.current_twist_msg.linear.x = 1.0  # İleri doğrusal hız
         self.current_twist_msg.angular.z = 0.0  # Sıfır açısal hız
 
-        # Twist mesajını yayınla
+    # Twist mesajını yayınla
         self.publisher_.publish(self.current_twist_msg)
         self.get_logger().info('Twist mesajı yayınlandı.')
+
+    def start_gazebo(self):
+        # Gazebo'yu başlat
+        #self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "worlds/iris_arducopter_runway.world"])
+        self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "/opt/ros/iron/share/gazebo_plugins/worlds/iris_arducopter_runway.world"])
+        # Gazebo'nun başlaması için bekleyin
+        time.sleep(10)
+
+
+        # Ardupilot SITL'i başlat
+        ardupilot_path = os.path.expanduser('~/ardupilot/ArduCopter')
+        self.ardupilot_process = subprocess.Popen(['../Tools/autotest/sim_vehicle.py', '-f', 'gazebo-iris', '--console', '--map'], cwd=ardupilot_path)
+
+
 
     def stop_gazebo(self):
         # Eğer mevcut bir Twist mesajı varsa, onu durdur

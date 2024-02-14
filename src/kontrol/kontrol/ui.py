@@ -36,7 +36,7 @@ if __name__ == '__main__':
   
     rclpy.init()
 
-  
+   
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
