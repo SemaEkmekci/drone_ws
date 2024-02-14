@@ -17,9 +17,13 @@ class MainWindow(QWidget):
         self.button_stop = QPushButton("Dur")
         self.button_stop.clicked.connect(self.send_ros_stop_command)
 
+        self.button_status = QPushButton("Drone Bilgileri Al")
+        self.button_status.clicked.connect(self.send_ros_drone_command)
+
         layout = QVBoxLayout()
         layout.addWidget(self.button_forward)
         layout.addWidget(self.button_stop)
+        layout.addWidget(self.button_status)
 
         self.setLayout(layout)
 
@@ -28,7 +32,10 @@ class MainWindow(QWidget):
         self.minimal_publisher.send_message_once()  
 
     def send_ros_stop_command(self):
-        self.minimal_publisher.send_stop_message() 
+        self.minimal_publisher.send_stop_message()
+
+    def send_ros_drone_command(self):
+        self.minimal_publisher.send_drone_status_message()   
 
 
 

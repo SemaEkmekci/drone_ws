@@ -1,4 +1,3 @@
 [console_scripts]
 alici = kontrol.alici:main
 kumanda = kontrol.kumanda:main
-

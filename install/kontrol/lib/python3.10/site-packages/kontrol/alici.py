@@ -1,11 +1,11 @@
 import rclpy
 import os
 from rclpy.node import Node
-import subprocess
 import time
-
+from dronekit import connect
 from geometry_msgs.msg import Twist
 from std_msgs.msg import String
+
 
 class MinimalSubscriber(Node):
 
@@ -19,7 +19,7 @@ class MinimalSubscriber(Node):
         self.publisher_ = self.create_publisher(Twist, '/demo/cmd_demo', 10)
         self.gazebo_process = None
         self.current_twist_msg = None
-        self.start_gazebo()
+        
 
     def listener_callback(self, msg):
         if msg.data == "İleri Git":
@@ -28,6 +28,11 @@ class MinimalSubscriber(Node):
         elif msg.data == "Dur":
             print("Dur")
             self.stop_gazebo()
+        elif msg.data == "Drone Bilgisi":
+            print("Drone Bilgisi")
+            self.drone_status()
+        else:
+            print("Mesaj YOK")
 
     
 
@@ -42,19 +47,15 @@ class MinimalSubscriber(Node):
         self.publisher_.publish(self.current_twist_msg)
         self.get_logger().info('Twist mesajı yayınlandı.')
 
-    def start_gazebo(self):
-        # Gazebo'yu başlat
-        #self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "worlds/iris_arducopter_runway.world"])
-        self.gazebo_process = subprocess.Popen(["gazebo", "--verbose", "/opt/ros/iron/share/gazebo_plugins/worlds/iris_arducopter_runway.world"])
-        # Gazebo'nun başlaması için bekleyin
-        time.sleep(10)
+    
 
 
-        # Ardupilot SITL'i başlat
-        ardupilot_path = os.path.expanduser('~/ardupilot/ArduCopter')
-        self.ardupilot_process = subprocess.Popen(['../Tools/autotest/sim_vehicle.py', '-f', 'gazebo-iris', '--console', '--map'], cwd=ardupilot_path)
-
-
+    def drone_status(self):
+        drone = connect('127.0.0.1:14550', wait_ready=True)
+        print(f"Drone Arm Durumu: {drone.armed}")
+        print(drone.location.global_frame)
+        print(drone.location.global_relative_frame)
+        print(drone.location.global_relative_frame.alt)
 
     def stop_gazebo(self):
         # Eğer mevcut bir Twist mesajı varsa, onu durdur

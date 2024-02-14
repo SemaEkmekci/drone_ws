@@ -23,7 +23,13 @@ class MinimalPublisher(Node):
         msg = String()
         msg.data = 'Dur'
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)  
+        self.get_logger().info('Publishing: "%s"' % msg.data)
+        
+    def send_drone_status_message(self):
+        msg = String()
+        msg.data = 'Drone Bilgisi'
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publishing: "%s"' % msg.data)   
 
 
 def main(args=None):

@@ -11,8 +11,10 @@ setup.py
 ../../build/kontrol/kontrol.egg-info/zip-safe
 kontrol/__init__.py
 kontrol/alici.py
+kontrol/arayüz.py
 kontrol/kumanda.py
-kontrol/ui.py
+kontrol/main.py
+kontrol/start.py
 resource/kontrol
 test/test_copyright.py
 test/test_flake8.py
