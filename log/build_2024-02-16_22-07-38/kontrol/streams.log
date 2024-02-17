@@ -1,0 +1,48 @@
+[4.044s] Invoking command in '/home/sema/Desktop/drone_ws/src/kontrol': PYTHONPATH=/home/sema/Desktop/drone_ws/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kontrol build --build-base /home/sema/Desktop/drone_ws/build/kontrol/build install --record /home/sema/Desktop/drone_ws/build/kontrol/install.log --single-version-externally-managed
+[5.018s] running egg_info
+[5.086s] writing ../../build/kontrol/kontrol.egg-info/PKG-INFO
+[5.088s] writing dependency_links to ../../build/kontrol/kontrol.egg-info/dependency_links.txt
+[5.088s] writing entry points to ../../build/kontrol/kontrol.egg-info/entry_points.txt
+[5.089s] writing requirements to ../../build/kontrol/kontrol.egg-info/requires.txt
+[5.089s] writing top-level names to ../../build/kontrol/kontrol.egg-info/top_level.txt
+[5.213s] reading manifest file '../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[5.213s] adding license file 'LICENSE'
+[5.216s] writing manifest file '../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[5.218s] running build
+[5.220s] running build_py
+[5.221s] copying kontrol/__init__.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.221s] copying kontrol/start.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.223s] copying kontrol/arayüz.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.224s] copying kontrol/kumanda.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.225s] copying kontrol/alici.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.225s] copying kontrol/main.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.226s] copying kontrol/takeoff.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[5.227s] running install
+[5.228s] /home/sema/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.229s] !!
+[5.229s] 
+[5.230s]         ********************************************************************************
+[5.230s]         Please avoid running ``setup.py`` directly.
+[5.230s]         Instead, use pypa/build, pypa/installer or other
+[5.230s]         standards-based tools.
+[5.230s] 
+[5.231s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.231s]         ********************************************************************************
+[5.231s] 
+[5.231s] !!
+[5.231s]   self.initialize_options()
+[5.248s] running install_lib
+[5.311s] copying /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol/alici.py -> /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol
+[5.314s] byte-compiling /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/alici.py to alici.cpython-310.pyc
+[5.317s] running install_data
+[5.388s] copying resource/kontrol -> /home/sema/Desktop/drone_ws/install/kontrol/share/ament_index/resource_index/packages
+[5.389s] copying package.xml -> /home/sema/Desktop/drone_ws/install/kontrol/share/kontrol
+[5.390s] running install_egg_info
+[5.452s] removing '/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[5.453s] Copying ../../build/kontrol/kontrol.egg-info to /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info
+[5.456s] running install_scripts
+[6.102s] Installing alici script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[6.102s] Installing kumanda script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[6.103s] Installing takeoff script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[6.106s] writing list of installed files to '/home/sema/Desktop/drone_ws/build/kontrol/install.log'
+[6.294s] Invoked command in '/home/sema/Desktop/drone_ws/src/kontrol' returned '0': PYTHONPATH=/home/sema/Desktop/drone_ws/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/kontrol build --build-base /home/sema/Desktop/drone_ws/build/kontrol/build install --record /home/sema/Desktop/drone_ws/build/kontrol/install.log --single-version-externally-managed

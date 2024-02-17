@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000158] (kontrol) JobQueued: {'identifier': 'kontrol', 'dependencies': OrderedDict()}
+[0.000187] (kontrol) JobStarted: {'identifier': 'kontrol'}
+[0.099360] (-) TimerEvent: {}
+[0.199671] (-) TimerEvent: {}
+[0.299910] (-) TimerEvent: {}
+[0.400226] (-) TimerEvent: {}
+[0.500468] (-) TimerEvent: {}
+[0.600736] (-) TimerEvent: {}
+[0.699646] (kontrol) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/kontrol', 'build', '--build-base', '/home/sema/Desktop/drone_ws/build/kontrol/build', 'install', '--record', '/home/sema/Desktop/drone_ws/build/kontrol/install.log', '--single-version-externally-managed'], 'cwd': '/home/sema/Desktop/drone_ws/src/packets/kontrol', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'sema', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/sema', 'OLDPWD': '/home/sema/Desktop/drone_ws/src/start_instructions_sh', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2619', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d2d9d646922f826f96351e2e65d0aee2', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'sema', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'sema', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/home/sema/ardupilot_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/iron/bin:/usr/lib/ccache:/usr/lib/ccache:/home/sema/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sema/ardupilot/Tools/autotest:/home/sema/ardupilot/Tools/autotest', 'SESSION_MANAGER': 'local/sema-EXCALIBUR-G770:@/tmp/.ICE-unix/2619,unix/sema-EXCALIBUR-G770:/tmp/.ICE-unix/2619', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a67f9932_b8a7_4736_90bd_5d7c13d704c1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.400', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sema/Desktop/drone_ws/build/kontrol', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=d2d9d646922f826f96351e2e65d0aee2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sema/Desktop/drone_ws/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701135] (-) TimerEvent: {}
+[0.801299] (-) TimerEvent: {}
+[0.881312] (kontrol) StdoutLine: {'line': b'running egg_info\n'}
+[0.894396] (kontrol) StdoutLine: {'line': b'writing ../../../build/kontrol/kontrol.egg-info/PKG-INFO\n'}
+[0.894753] (kontrol) StdoutLine: {'line': b'writing dependency_links to ../../../build/kontrol/kontrol.egg-info/dependency_links.txt\n'}
+[0.895030] (kontrol) StdoutLine: {'line': b'writing entry points to ../../../build/kontrol/kontrol.egg-info/entry_points.txt\n'}
+[0.895240] (kontrol) StdoutLine: {'line': b'writing requirements to ../../../build/kontrol/kontrol.egg-info/requires.txt\n'}
+[0.895537] (kontrol) StdoutLine: {'line': b'writing top-level names to ../../../build/kontrol/kontrol.egg-info/top_level.txt\n'}
+[0.901365] (-) TimerEvent: {}
+[0.922719] (kontrol) StdoutLine: {'line': b"reading manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'\n"}
+[0.922982] (kontrol) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.923549] (kontrol) StdoutLine: {'line': b"writing manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'\n"}
+[0.923666] (kontrol) StdoutLine: {'line': b'running build\n'}
+[0.923824] (kontrol) StdoutLine: {'line': b'running build_py\n'}
+[0.923923] (kontrol) StdoutLine: {'line': b'copying kontrol/__init__.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol\n'}
+[0.924078] (kontrol) StdoutLine: {'line': b'copying kontrol/kumanda.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol\n'}
+[0.924179] (kontrol) StdoutLine: {'line': b'copying kontrol/alici.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol\n'}
+[0.924279] (kontrol) StdoutLine: {'line': b'copying kontrol/takeoff.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol\n'}
+[0.924567] (kontrol) StdoutLine: {'line': b'running install\n'}
+[0.924788] (kontrol) StderrLine: {'line': b'/home/sema/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[0.924891] (kontrol) StderrLine: {'line': b'!!\n'}
+[0.924956] (kontrol) StderrLine: {'line': b'\n'}
+[0.925020] (kontrol) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.925077] (kontrol) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[0.925140] (kontrol) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[0.925200] (kontrol) StderrLine: {'line': b'        standards-based tools.\n'}
+[0.925256] (kontrol) StderrLine: {'line': b'\n'}
+[0.925311] (kontrol) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[0.925367] (kontrol) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.925422] (kontrol) StderrLine: {'line': b'\n'}
+[0.925476] (kontrol) StderrLine: {'line': b'!!\n'}
+[0.925549] (kontrol) StderrLine: {'line': b'  self.initialize_options()\n'}
+[0.930166] (kontrol) StdoutLine: {'line': b'running install_lib\n'}
+[0.944426] (kontrol) StdoutLine: {'line': b'copying /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol/alici.py -> /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol\n'}
+[0.944988] (kontrol) StdoutLine: {'line': b'byte-compiling /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/alici.py to alici.cpython-310.pyc\n'}
+[0.945910] (kontrol) StdoutLine: {'line': b'running install_data\n'}
+[0.959896] (kontrol) StdoutLine: {'line': b'copying resource/kontrol -> /home/sema/Desktop/drone_ws/install/kontrol/share/ament_index/resource_index/packages\n'}
+[0.960195] (kontrol) StdoutLine: {'line': b'copying package.xml -> /home/sema/Desktop/drone_ws/install/kontrol/share/kontrol\n'}
+[0.960293] (kontrol) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.974900] (kontrol) StdoutLine: {'line': b"removing '/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.975236] (kontrol) StdoutLine: {'line': b'Copying ../../../build/kontrol/kontrol.egg-info to /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info\n'}
+[0.975901] (kontrol) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001436] (-) TimerEvent: {}
+[1.098296] (kontrol) StdoutLine: {'line': b'Installing alici script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol\n'}
+[1.098520] (kontrol) StdoutLine: {'line': b'Installing kumanda script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol\n'}
+[1.098721] (kontrol) StdoutLine: {'line': b'Installing takeoff script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol\n'}
+[1.098872] (kontrol) StdoutLine: {'line': b"writing list of installed files to '/home/sema/Desktop/drone_ws/build/kontrol/install.log'\n"}
+[1.101511] (-) TimerEvent: {}
+[1.117948] (kontrol) CommandEnded: {'returncode': 0}
+[1.170330] (kontrol) JobEnded: {'identifier': 'kontrol', 'rc': 0}
+[1.171057] (-) EventReactorShutdown: {}

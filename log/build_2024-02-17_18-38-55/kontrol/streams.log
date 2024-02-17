@@ -1,0 +1,45 @@
+[0.701s] Invoking command in '/home/sema/Desktop/drone_ws/src/packets/kontrol': PYTHONPATH=/home/sema/Desktop/drone_ws/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/sema/Desktop/drone_ws/build/kontrol/build install --record /home/sema/Desktop/drone_ws/build/kontrol/install.log --single-version-externally-managed
+[0.881s] running egg_info
+[0.894s] writing ../../../build/kontrol/kontrol.egg-info/PKG-INFO
+[0.895s] writing dependency_links to ../../../build/kontrol/kontrol.egg-info/dependency_links.txt
+[0.895s] writing entry points to ../../../build/kontrol/kontrol.egg-info/entry_points.txt
+[0.895s] writing requirements to ../../../build/kontrol/kontrol.egg-info/requires.txt
+[0.895s] writing top-level names to ../../../build/kontrol/kontrol.egg-info/top_level.txt
+[0.923s] reading manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[0.923s] adding license file 'LICENSE'
+[0.923s] writing manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[0.924s] running build
+[0.924s] running build_py
+[0.924s] copying kontrol/__init__.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[0.924s] copying kontrol/kumanda.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[0.924s] copying kontrol/alici.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[0.924s] copying kontrol/takeoff.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+[0.924s] running install
+[0.925s] /home/sema/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.925s] !!
+[0.925s] 
+[0.925s]         ********************************************************************************
+[0.925s]         Please avoid running ``setup.py`` directly.
+[0.925s]         Instead, use pypa/build, pypa/installer or other
+[0.925s]         standards-based tools.
+[0.925s] 
+[0.925s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.925s]         ********************************************************************************
+[0.925s] 
+[0.925s] !!
+[0.925s]   self.initialize_options()
+[0.930s] running install_lib
+[0.944s] copying /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol/alici.py -> /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol
+[0.945s] byte-compiling /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/alici.py to alici.cpython-310.pyc
+[0.946s] running install_data
+[0.960s] copying resource/kontrol -> /home/sema/Desktop/drone_ws/install/kontrol/share/ament_index/resource_index/packages
+[0.960s] copying package.xml -> /home/sema/Desktop/drone_ws/install/kontrol/share/kontrol
+[0.960s] running install_egg_info
+[0.975s] removing '/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[0.975s] Copying ../../../build/kontrol/kontrol.egg-info to /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info
+[0.976s] running install_scripts
+[1.098s] Installing alici script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[1.098s] Installing kumanda script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[1.099s] Installing takeoff script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+[1.099s] writing list of installed files to '/home/sema/Desktop/drone_ws/build/kontrol/install.log'
+[1.118s] Invoked command in '/home/sema/Desktop/drone_ws/src/packets/kontrol' returned '0': PYTHONPATH=/home/sema/Desktop/drone_ws/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/sema/Desktop/drone_ws/build/kontrol/build install --record /home/sema/Desktop/drone_ws/build/kontrol/install.log --single-version-externally-managed

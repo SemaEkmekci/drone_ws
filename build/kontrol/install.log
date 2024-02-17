@@ -1,16 +1,10 @@
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__init__.py
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/start.py
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/arayüz.py
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/kumanda.py
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/alici.py
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/main.py
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/takeoff.py
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/__init__.cpython-310.pyc
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/start.cpython-310.pyc
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/arayüz.cpython-310.pyc
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/kumanda.cpython-310.pyc
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/alici.cpython-310.pyc
-/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/main.cpython-310.pyc
 /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/__pycache__/takeoff.cpython-310.pyc
 /home/sema/Desktop/drone_ws/install/kontrol/share/ament_index/resource_index/packages/kontrol
 /home/sema/Desktop/drone_ws/install/kontrol/share/kontrol/package.xml
