@@ -11,16 +11,9 @@ class StartManager:
         self.main()
 
     def start(self, start_instruction):
-        #subprocess.run(start_instruction, shell=True)
-        #subprocess.Popen(start_instruction, shell=True)
-        #subprocess.Popen(f"gnome-terminal -- {start_instruction}", shell=True)
-        #subprocess.Popen(["gnome-terminal", "-e", start_instruction])
-        #subprocess.Popen(['gnome-terminal' '-e', 'bash', '-c', terminal_commands['gnome-terminal']])
-        terminal_commands = {
-            'gnome-terminal': start_instruction,
-            # Buraya farklı terminal ve komutları ekleyebilirsiniz
-        }
-        subprocess.Popen(['gnome-terminal', '-e', 'bash', '-c', terminal_commands['gnome-terminal']])
+        subprocess.run(start_instruction, shell=True)
+        
+       
     def main(self):
         print(self.start_instruction_arr)
     
