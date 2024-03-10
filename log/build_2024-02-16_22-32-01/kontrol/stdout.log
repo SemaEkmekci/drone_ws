@@ -1,0 +1,33 @@
+running egg_info
+writing ../../../build/kontrol/kontrol.egg-info/PKG-INFO
+writing dependency_links to ../../../build/kontrol/kontrol.egg-info/dependency_links.txt
+writing entry points to ../../../build/kontrol/kontrol.egg-info/entry_points.txt
+writing requirements to ../../../build/kontrol/kontrol.egg-info/requires.txt
+writing top-level names to ../../../build/kontrol/kontrol.egg-info/top_level.txt
+reading manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+copying kontrol/__init__.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/start.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/arayüz.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/kumanda.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/alici.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/main.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+copying kontrol/takeoff.py -> /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol
+running install
+running install_lib
+copying /home/sema/Desktop/drone_ws/build/kontrol/build/lib/kontrol/arayüz.py -> /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol
+byte-compiling /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol/arayüz.py to arayüz.cpython-310.pyc
+running install_data
+copying resource/kontrol -> /home/sema/Desktop/drone_ws/install/kontrol/share/ament_index/resource_index/packages
+copying package.xml -> /home/sema/Desktop/drone_ws/install/kontrol/share/kontrol
+running install_egg_info
+removing '/home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/kontrol/kontrol.egg-info to /home/sema/Desktop/drone_ws/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing alici script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+Installing kumanda script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+Installing takeoff script to /home/sema/Desktop/drone_ws/install/kontrol/lib/kontrol
+writing list of installed files to '/home/sema/Desktop/drone_ws/build/kontrol/install.log'

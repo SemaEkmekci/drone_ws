@@ -1,0 +1,38 @@
+[1.095s] Invoking command in '/home/metin/Downloads/drone_ws-main/src/packets/kontrol': PYTHONPATH=/home/metin/Downloads/drone_ws-main/build/kontrol/prefix_override:/home/metin/Downloads/drone_ws-main/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/metin/Downloads/drone_ws-main/build/kontrol/build install --record /home/metin/Downloads/drone_ws-main/build/kontrol/install.log --single-version-externally-managed
+[1.367s] running egg_info
+[1.385s] writing ../../../build/kontrol/kontrol.egg-info/PKG-INFO
+[1.386s] writing dependency_links to ../../../build/kontrol/kontrol.egg-info/dependency_links.txt
+[1.386s] writing entry points to ../../../build/kontrol/kontrol.egg-info/entry_points.txt
+[1.387s] writing requirements to ../../../build/kontrol/kontrol.egg-info/requires.txt
+[1.387s] writing top-level names to ../../../build/kontrol/kontrol.egg-info/top_level.txt
+[1.430s] reading manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[1.431s] adding license file 'LICENSE'
+[1.432s] writing manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[1.432s] running build
+[1.432s] running build_py
+[1.433s] copying kontrol/alici.py -> /home/metin/Downloads/drone_ws-main/build/kontrol/build/lib/kontrol
+[1.433s] running install
+[1.434s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.434s] !!
+[1.434s] 
+[1.434s]         ********************************************************************************
+[1.434s]         Please avoid running ``setup.py`` directly.
+[1.435s]         Instead, use pypa/build, pypa/installer or other
+[1.435s]         standards-based tools.
+[1.435s] 
+[1.435s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.435s]         ********************************************************************************
+[1.435s] 
+[1.435s] !!
+[1.435s]   self.initialize_options()
+[1.443s] running install_lib
+[1.462s] running install_data
+[1.481s] running install_egg_info
+[1.499s] removing '/home/metin/Downloads/drone_ws-main/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[1.500s] Copying ../../../build/kontrol/kontrol.egg-info to /home/metin/Downloads/drone_ws-main/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info
+[1.501s] running install_scripts
+[1.696s] Installing alici script to /home/metin/Downloads/drone_ws-main/install/kontrol/lib/kontrol
+[1.696s] Installing kumanda script to /home/metin/Downloads/drone_ws-main/install/kontrol/lib/kontrol
+[1.697s] Installing takeoff script to /home/metin/Downloads/drone_ws-main/install/kontrol/lib/kontrol
+[1.697s] writing list of installed files to '/home/metin/Downloads/drone_ws-main/build/kontrol/install.log'
+[1.735s] Invoked command in '/home/metin/Downloads/drone_ws-main/src/packets/kontrol' returned '0': PYTHONPATH=/home/metin/Downloads/drone_ws-main/build/kontrol/prefix_override:/home/metin/Downloads/drone_ws-main/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/metin/Downloads/drone_ws-main/build/kontrol/build install --record /home/metin/Downloads/drone_ws-main/build/kontrol/install.log --single-version-externally-managed

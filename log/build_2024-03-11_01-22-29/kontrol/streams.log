@@ -1,0 +1,26 @@
+[1.055s] Invoking command in '/home/sema/Desktop/drone_ws-main-main/src/packets/kontrol': PYTHONPATH=/home/sema/Desktop/drone_ws-main-main/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/sema/Desktop/drone_ws-main-main/build/kontrol/build install --record /home/sema/Desktop/drone_ws-main-main/build/kontrol/install.log --single-version-externally-managed
+[1.225s] running egg_info
+[1.226s] writing ../../../build/kontrol/kontrol.egg-info/PKG-INFO
+[1.226s] writing dependency_links to ../../../build/kontrol/kontrol.egg-info/dependency_links.txt
+[1.226s] writing entry points to ../../../build/kontrol/kontrol.egg-info/entry_points.txt
+[1.227s] writing requirements to ../../../build/kontrol/kontrol.egg-info/requires.txt
+[1.227s] writing top-level names to ../../../build/kontrol/kontrol.egg-info/top_level.txt
+[1.228s] reading manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[1.229s] adding license file 'LICENSE'
+[1.229s] writing manifest file '../../../build/kontrol/kontrol.egg-info/SOURCES.txt'
+[1.229s] running build
+[1.230s] running build_py
+[1.230s] running install
+[1.263s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.263s]   warnings.warn(
+[1.264s] running install_lib
+[1.267s] running install_data
+[1.268s] running install_egg_info
+[1.273s] removing '/home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[1.273s] Copying ../../../build/kontrol/kontrol.egg-info to /home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/python3.10/site-packages/kontrol-0.0.0-py3.10.egg-info
+[1.276s] running install_scripts
+[1.308s] Installing alici script to /home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/kontrol
+[1.308s] Installing kumanda script to /home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/kontrol
+[1.308s] Installing takeoff script to /home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/kontrol
+[1.308s] writing list of installed files to '/home/sema/Desktop/drone_ws-main-main/build/kontrol/install.log'
+[1.335s] Invoked command in '/home/sema/Desktop/drone_ws-main-main/src/packets/kontrol' returned '0': PYTHONPATH=/home/sema/Desktop/drone_ws-main-main/build/kontrol/prefix_override:/home/sema/Desktop/drone_ws-main-main/install/kontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/kontrol build --build-base /home/sema/Desktop/drone_ws-main-main/build/kontrol/build install --record /home/sema/Desktop/drone_ws-main-main/build/kontrol/install.log --single-version-externally-managed

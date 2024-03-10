@@ -1,0 +1,144 @@
+[1.631s] DEBUG:colcon:Command line arguments: ['/home/mfy/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/mfy/Desktop/drone_ws-main']
+[1.632s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mfy/Desktop/drone_ws-main'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa594476ef0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fa594476380>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fa594476380>>)
+[1.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.762s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.762s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mfy/Desktop/drone_ws-main'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['ignore', 'ignore_ament_install']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'ignore'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'ignore_ament_install'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['colcon_pkg']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'colcon_pkg'
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['colcon_meta']
+[1.763s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'colcon_meta'
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['ros']
+[1.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'ros'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['cmake', 'python']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'cmake'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'python'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extensions ['python_setup_py']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main) by extension 'python_setup_py'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/build) by extensions ['ignore', 'ignore_ament_install']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/build) by extension 'ignore'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/build) ignored
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/install) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/install) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/install) ignored
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/log) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/log) by extension 'ignore'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/log) ignored
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['ignore', 'ignore_ament_install']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'ignore'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'ignore_ament_install'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['colcon_pkg']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'colcon_pkg'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['colcon_meta']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'colcon_meta'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['ros']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'ros'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['cmake', 'python']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'cmake'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'python'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extensions ['python_setup_py']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src) by extension 'python_setup_py'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/build) by extension 'ignore'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/build) ignored
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/install) by extension 'ignore'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/install) ignored
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/log) by extension 'ignore'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/log) ignored
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['ignore', 'ignore_ament_install']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'ignore'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'ignore_ament_install'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['colcon_pkg']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'colcon_pkg'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['colcon_meta']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'colcon_meta'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['ros']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'ros'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['cmake', 'python']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'cmake'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'python'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extensions ['python_setup_py']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets) by extension 'python_setup_py'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extensions ['ignore', 'ignore_ament_install']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extension 'ignore'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extension 'ignore_ament_install'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extensions ['colcon_pkg']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extension 'colcon_pkg'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extensions ['colcon_meta']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extension 'colcon_meta'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extensions ['ros']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/packets/kontrol) by extension 'ros'
+[1.807s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mfy/Desktop/drone_ws-main/src/packets/kontrol' with type 'ros.ament_python' and name 'kontrol'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['ignore', 'ignore_ament_install']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'ignore'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'ignore_ament_install'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['colcon_pkg']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'colcon_pkg'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['colcon_meta']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'colcon_meta'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['ros']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'ros'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['cmake', 'python']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'cmake'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'python'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extensions ['python_setup_py']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code) by extension 'python_setup_py'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'ignore'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'ignore_ament_install'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['colcon_pkg']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'colcon_pkg'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['colcon_meta']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'colcon_meta'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['ros']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'ros'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['cmake', 'python']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'cmake'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'python'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extensions ['python_setup_py']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_code/__pycache__) by extension 'python_setup_py'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['ignore', 'ignore_ament_install']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'ignore'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'ignore_ament_install'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['colcon_pkg']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'colcon_pkg'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['colcon_meta']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'colcon_meta'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['ros']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'ros'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['cmake', 'python']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'cmake'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'python'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extensions ['python_setup_py']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh) by extension 'python_setup_py'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/build) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/build) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/build) ignored
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/install) by extensions ['ignore', 'ignore_ament_install']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/install) by extension 'ignore'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/install) ignored
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/log) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/log) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/start_instructions_sh/log) ignored
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'ignore_ament_install'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['colcon_pkg']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'colcon_pkg'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['colcon_meta']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'colcon_meta'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['ros']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'ros'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['cmake', 'python']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'cmake'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'python'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extensions ['python_setup_py']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mfy/Desktop/drone_ws-main/src/ui_code) by extension 'python_setup_py'
+[1.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
